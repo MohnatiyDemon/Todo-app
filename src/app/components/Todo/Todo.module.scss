@@ -1,0 +1,32 @@
+.Todo {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: rgba(51, 232, 232, 0.8);
+  margin: 10px 0 10px 0;
+  color: red($color: #0f0404);
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.Todo--completed {
+  text-decoration: line-through;
+  background-color: rgba(51, 232, 232, 0.5);
+}
+
+.todo-icons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 30px;
+}
+
+.todo-text,
+.todo-icon {
+  cursor: pointer;
+  &:hover {
+    color: rgb(255, 255, 255);
+  }
+}
