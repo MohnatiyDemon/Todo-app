@@ -55,6 +55,7 @@ export const TodoWrapper = () => {
 
   return (
     <main className={styles.TodoWrapper}>
+      <h1 className={styles['todo-title']}>TO DO LIST</h1>
       <TodoForm addTodo={addTodo} />
       <TodoList
         todos={todos}
